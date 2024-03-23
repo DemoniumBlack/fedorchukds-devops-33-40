@@ -52,6 +52,8 @@
 
 ![img_6](IMG/img_6.png)
 
+![img_7](IMG/img_7.png)
+
 Приложения видят друг друга.
 
 5. Ссылка на манифест Deployment c frontend - https://github.com/DemoniumBlack/fedorchukds-devops-33-40/blob/main/SRC/deploy_front.yaml
@@ -66,7 +68,7 @@
 
 1. Включаю Ingress-controller в MicroK8S. Проверю его состояние:
 
-![img_7](IMG/img_7.png)
+![img_8](IMG/img_8.png)
 
 Ingress-controller запущен.
 
@@ -74,7 +76,7 @@ Ingress-controller запущен.
 
 Применю манифест и проверю результат:
 
-![img_8](IMG/img_8.png)
+![img_9](IMG/img_9.png)
 
 Ingress создан.
 
@@ -82,7 +84,7 @@ Ingress создан.
 
 Проверяю доступ к приложениям через Ingress:
 
-![img_9](IMG/img_9.png)
+![img_10](IMG/img_10.png)
 
 При обращении к http://myingress.com/ получаю ответ от Nginx, при обращении к http://myingress.com/api получаю ответ от Multitool.
 
